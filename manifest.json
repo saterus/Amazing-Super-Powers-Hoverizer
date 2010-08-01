@@ -1,0 +1,12 @@
+{
+  "name": "Amazing Super Powers Bonus Comic Hoverizer",
+  "version": "0.1",
+  "description": "Adds a button to the nav bar that displays the bonus strip when hovered over.",
+  "icons": { "128": "godslug.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://www.amazingsuperpowers.com/*"],
+      "js": ["jquery-1.4.2.min.js", "asp_rollover.js"]
+    }
+  ]
+}
