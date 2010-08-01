@@ -35,17 +35,9 @@ if(has_bonus_comic) {
     "display": "none"
   });
 
-
-
   var timer;
   open = false;
   timeout = 500;
-  // if(timer) {
-  //   clearTimeout(timer);
-  //   timer = null
-  // }
-  // timer = setTimeout(function() {}, timeoutInSecs);
-
 
   bonus_button.mouseover(function() {
     if(!open) {
@@ -79,9 +71,6 @@ if(has_bonus_comic) {
 
         console.log('Handler for .mouseout() called.');
       }, timeout);
-    } else {
-      // bonus.stop(true, false);
-      // center.stop(true, false);
     }
 
   });
