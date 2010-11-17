@@ -5,7 +5,7 @@
   "icons": { "128": "godslug.png" },
   "content_scripts": [
     {
-      "matches": ["http://www.amazingsuperpowers.com/", "http://www.amazingsuperpowers.com/*/*/*"],
+      "matches": ["http://www.amazingsuperpowers.com/*/*/*", "http://www.amazingsuperpowers.com/"],
       "js": ["jquery-1.4.2.min.js", "asp_rollover.js"]
     }
   ]
